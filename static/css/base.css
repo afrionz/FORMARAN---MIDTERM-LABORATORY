@@ -1,8 +1,28 @@
-h1 {
-	color: #4ac1f7;
+h1, h2{
+	color: #000000;
 }
 
 .mylogo {
     height: 300px;
     width: auto;
+}
+a{
+    text-decoration: none;
+}
+header {
+  background-color: #fff;
+  padding: 15px 0 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+header a {
+  color: #e63946;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
